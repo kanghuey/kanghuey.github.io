@@ -134,10 +134,12 @@ p {
     .menu-list a {
         padding: 15px;
         width: 100%;
+        box-sizing: border-box;
     }
 
-    .banner {
-        height: auto;
+    .recent, .banner, main {
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .banner-content {
