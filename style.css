@@ -3,6 +3,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -37,7 +39,6 @@ p {
 
 .menu-container {
     display: flex;
-    padding: 0 16px;
     background-color: #010103;
     justify-content: center;
     align-items: center;
@@ -61,7 +62,6 @@ p {
 .menu-list a.active {
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: 15px;
-    font-weight: bold;
 }
 
 .menu-list a:hover {
@@ -113,62 +113,6 @@ p {
     flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
-    .menu-container {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .menu-list {
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu-list li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .menu-list a {
-        padding: 15px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .recent, .banner, main {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .banner-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .banner h1,
-    .banner p {
-        text-align: center;
-    }
-
-    .recent h1{
-        align-self: center;
-    }
-
-    .activity {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .activity img {
-        width: 150px;
-        height: 150px;
-    }    
-}
-
 .about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -214,4 +158,58 @@ p {
     width: 24px;
     height: 24px;
     padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-list li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-list a {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h1,
+    .banner p {
+        text-align: center;
+    }
+
+    .recent h1{
+        align-self: center;
+    }
+
+    .activity {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .activity img {
+        width: 150px;
+        height: 150px;
+    }    
 }
