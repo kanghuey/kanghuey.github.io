@@ -118,7 +118,8 @@ p {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 2rem;
     padding: 2.5rem;
     color: #FFFFFF;
 }
@@ -133,21 +134,20 @@ p {
     aspect-ratio: 0.84 / 1;
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    justify-self: stretch;
+    border-radius: 0.8rem;
 }
 
 .about-info1 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     align-self: center;
+    text-align: justify;
 }
 
 .about-info2 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     align-self: center;
-
 }
 
 .about-info3 {
@@ -234,7 +234,7 @@ p {
 
     .about {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
     }
 
     .about-image {
