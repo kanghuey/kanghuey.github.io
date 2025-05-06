@@ -161,6 +161,54 @@ p {
     line-height: 1.5;
 }
 
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.project-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: rgba(234, 216, 255, 0.2);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 25rem;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.project-items h2{
+    text-align: center;
+}
+
+.project-items img {
+    margin: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.project-items iframe {
+    margin: 1rem 0;
+    width: 100%;
+    height: 20rem;
+}
+
+.contact-table-container {
+    display: flex;
+    margin: 1rem;
+}
+
+.contact-table {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+}
+
 .footer {
     display: flex;
     padding: 1.5rem;
