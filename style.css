@@ -43,6 +43,10 @@ a {
     color: aqua;
 }
 
+a:hover {
+    color: rgb(0, 184, 184);
+}
+
 .menu-container {
     display: flex;
     background-color: #010103;
@@ -195,10 +199,6 @@ a {
     margin: 10%;
     width: 100%;
     height: auto;
-}
-
-.project-items a:hover {
-    color: rgb(0, 184, 184);
 }
 
 .contact-table-container {
