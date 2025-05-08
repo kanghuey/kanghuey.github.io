@@ -39,6 +39,10 @@ p {
     font-size: 1.3rem;
 }
 
+a {
+    color: aqua;
+}
+
 .menu-container {
     display: flex;
     background-color: #010103;
@@ -191,10 +195,6 @@ p {
     margin: 10%;
     width: 100%;
     height: auto;
-}
-
-.project-items a {
-    color: aqua;
 }
 
 .project-items a:hover {
