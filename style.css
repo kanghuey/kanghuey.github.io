@@ -193,10 +193,12 @@ p {
     height: auto;
 }
 
-.project-items iframe {
-    margin: 1rem 0;
-    width: 100%;
-    height: 20rem;
+.project-items a {
+    color: aqua;
+}
+
+.project-items a:hover {
+    color: rgb(0, 184, 184);
 }
 
 .contact-table-container {
