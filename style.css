@@ -317,7 +317,7 @@ a:active {
     }
     
     .banner {
-        text-align: left;
+        text-align: start;
     }
 
     .activity {
