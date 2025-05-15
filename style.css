@@ -273,11 +273,42 @@ a:active {
 #contact-info3 img{
     width: 2.8rem;
     height: 2.8rem;
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
 }
 
 #contact-info3 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    border: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    bottom: 2rem; 
+    right: 2rem;
     width: 3rem;
     height: 3rem;
+    border-radius: 50%;
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
 }
 
 .footer {
@@ -292,6 +323,12 @@ a:active {
     width: 2.5rem;
     height: 2.5rem;
     padding: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .footer p {
