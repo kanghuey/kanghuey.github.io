@@ -241,7 +241,7 @@ a:active {
 }
 
 #contact-info3 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -283,9 +283,9 @@ button img {
 }
 
 .footer img {
-    width: 2.5rem;
-    height: 2.5rem;
-    padding: 0.5rem;
+    width: auto;
+    height: 3rem;
+    padding: 0.3rem;
     transition: transform 0.3s ease;
 }
 
@@ -294,10 +294,6 @@ button img {
     cursor: pointer;
 }
 
-.footer p {
-    color: #FFFFFF;
-    display: none;
-}
 
 @media (min-width: 769px) {
     .menu-container {
@@ -378,4 +374,5 @@ button img {
         justify-content: flex-start;
         padding-left: 2rem;
     }
+
 }
