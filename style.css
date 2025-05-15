@@ -339,7 +339,7 @@ button img {
 @media (min-width: 769px) {
     .menu-container {
         flex-direction: row;
-        height: 3.5rem;
+        height: 4rem;
     }
 
     .menu-list {
